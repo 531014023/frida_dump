@@ -122,4 +122,4 @@ function hook_dlopen() {
 }
 
 
-setImmediate(dump_dex);
+setImmediate(hook_dlopen);
